@@ -1,6 +1,6 @@
-body{
-  background-color: #
-  
+.principal{
+  background-color: #CCCCCC;
+  padding:30px
 }
 
 #banner{
@@ -24,7 +24,25 @@ p {
 em b {
   color: black; (255, 0, 0)
 }
+.beneficios{
+
+  background-color: #FFFFFF
+  padding:20px;
+}
+
+  
+}
+display: inline-block;
+vertical: align: top;
+width: 20%;
+
+
 
 .item{
   font-style: italic;
+}
+
+.imagem-beneficios{
+
+  width: 50%;
 }
