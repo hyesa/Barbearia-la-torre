@@ -3,7 +3,7 @@
 }
 
 .principal {
-  background-color: #a8a8a8; 
+  background-color: #CCCCCC; 
   padding: 30px;
 }
 
@@ -23,8 +23,8 @@ p {
   font-size: 20px;
 }
 
-em b {
-  color: #ffffff;
+em strong {
+  color: red;
 }
 
 .beneficios {
