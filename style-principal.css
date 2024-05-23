@@ -98,11 +98,10 @@ form{
   margin: 40px 0;
 }
 
-fome label, form p{
-  display: block;
-  font-size: 20px; 
-  margin-bottom: 10px;
-}
+form label, form legend{
+display: block;
+font-size: 20px;
+margin-bottom: 10px;
 
 
 .input-padrao{
@@ -111,3 +110,25 @@ fome label, form p{
   padding: 10px 25px;
   width: 50%; 
 } 
+
+.checkbox{
+  margin: 20px 0; 
+}
+
+.enviar{
+ width:40%;
+ padding:15px 0;
+ background: orange;
+ color: white;
+ font-weight: bold:
+ font-size: 18px;
+ border: none;
+ border-radius: 5px;
+  transition: 2s all;
+  
+}
+
+.enviar:hover{
+  background: purple;
+  transform: scale(1.2);
+}
