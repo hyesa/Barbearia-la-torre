@@ -5,28 +5,24 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <title>Produtos</title>
-  <link href="index.css" rel="stylesheet">
+  <link href="reset.css" rel="stylesheet">
   <link href="style-principal.css" rel="stylesheet">
 </head>
 
 <body>
 
   <header>
-
     <div class="caixa">
-      <h1><img src="logo.png" </h1>
+    <h1><img src="logo.png"></h1>
 
-        <nav>
-
-          <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="produtos.html">Produtos</a></li>
-            <li><a href="contato.html">Contato</a></li>
-          </ul>
-
-        </nav>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="produtos.html">Produtos</a></li>
+        <li><a href="contato.html">Contato</a></li>
+      </ul>
+    </nav>
     </div>
-
   </header>
 
 </body>
@@ -50,17 +46,18 @@
       <legend>Como prefere o nosso contato?</legend>
 
 
-      <label for="radio-email"><input class="input-padrao" type="radio" name="contato" value="email" id="radio-email">
+      <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email">
         Email</label>
 
-      <label for="radio-telefone"> <input class="input-padrao" type="radio" name="contato" value="telefone"
+      <label for="radio-telefone"> <input type="radio" name="contato" value="telefone"
           id="radio-telefone">Telefone</label>
 
-      <label for="radio-whatsapp"><input class="input-padrao" type="radio" name="contato" value="whatsapp"
+      <label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp"
           id="radio-whatsapp" checked>
         Whatsapp</label>
     </fieldset>
-    <fieldset <p>Qual horário você prefere ser atendido?</p>
+    
+    <fieldset> <p>Qual horário você prefere ser atendido?</p>
       <select>
         <option>Manhã</option>
         <option>Tarde</option>
@@ -69,10 +66,33 @@
     </fieldset>
 
 
-    </div>
-    <label><input class="checkbox" type="checkbox" Gostaria de receber nossas ofertas por e-mail?</label>
-      <input type="submit" value="Enviar o Formulário" class="enviar">
+    
+    <label><input class="checkbox" type="checkbox"> Gostaria de receber nossas ofertas por e-mail?</label>
+    <input type="submit" value="Enviar o formulário" class="oi">
   </form>
+
+  <table>
+    <thead>
+      <tbody>
+    <tr>
+      <th>Dia</th>
+      <th>Horário</th>
+    </tr>
+      <thead/>
+    <tr>
+      <td>Segunda</td>
+      <td>8h - 20h</td>
+    </tr>
+    <tr>
+      <td>Quarta</td>
+      <td>8h - 20h</td>
+    </tr>
+    <tr>
+      <td>Sexta</td>
+      <td>8h - 20h</td>
+    </tr>
+    <tbody>
+  <table/>
 </main>
 
 <footer>
